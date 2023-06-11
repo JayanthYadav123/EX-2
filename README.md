@@ -20,7 +20,7 @@ Reg. No.: 212221230030
 ```
 ```
 # client
-```
+
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -38,7 +38,7 @@ while True:
         break
 ```    
    # server
- ```
+
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
