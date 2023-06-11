@@ -20,7 +20,7 @@ Reg. No.: 212221230030
 ```
 ```
 # client
-
+```
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -36,16 +36,16 @@ while True:
     else:
         c.close()
         break
-        
+```    
    # server
- ~~~
+ ```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
 print(s.recv(1024).decode())
 s.send("Acknowledgement Recived".encode())
-~~~
+```
 # OUTPUT :
 Client Side:
 ![image](https://github.com/JayanthYadav123/EX-2/assets/94836154/0613d3ca-d6fc-4b2d-a6fd-1222d9924e2a)
